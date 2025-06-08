@@ -9,7 +9,7 @@ Sockets Links.
  server .
 4. Send and receive the message using the send function in socket.
 ## PROGRAM :
-client 
+Client 
 ```
 import socket
 def start_server(host='127.0.0.1', port=65432):
@@ -37,7 +37,7 @@ def start_server(host='127.0.0.1', port=65432):
 if __name__ == "__main__":
     start_server()
 ```
-server
+Server
 ```
 import socket
 
